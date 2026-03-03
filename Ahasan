@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مركز الأدوات الذكية | 10 أدوات احترافية في مكان واحد</title>
+    <meta name="description" content="أفضل مجموعة أدوات مجانية: حساب السعرات، تحويل عملات، عداد كلمات، وتوليد كلمات سر قوية. أدوات سريعة ودقيقة للمحترفين.">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&display=swap" rel="stylesheet">
+    
+    <script src="https://pl28825044.effectivegatecpm.com/c3/eb/01/c3eb01a1312b0990825156562c460151.js"></script>
+
+    <style>
+        :root { --p: #10b981; --d: #0d1117; --v: #f59e0b; --l: #f3f4f6; --bg: #161b22; }
+        * { box-sizing: border-box; font-family: 'Cairo', sans-serif; -webkit-user-select: none; user-select: none; }
+        body { background: var(--d); color: var(--l); margin: 0; padding-bottom: 50px; }
+        
+        .header { background: linear-gradient(135deg, #1f2937, #0d1117); padding: 40px 20px; text-align: center; border-bottom: 2px solid var(--v); }
+        .nav-tabs { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-top: 20px; }
+        .tab-btn { background: var(--bg); border: 1px solid #30363d; color: white; padding: 10px 20px; border-radius: 8px; cursor: pointer; transition: 0.3s; }
+        .tab-btn.active { background: var(--p); border-color: var(--p); }
+
+        .container { max-width: 900px; margin: auto; padding: 20px; }
+        .ad-box { background: rgba(255,255,255,0.05); border: 1px dashed #444; margin: 20px 0; text-align: center; min-height: 90px; border-radius: 12px; display: flex; align-items: center; justify-content: center; overflow: hidden; }
+        
+        .tool-content { display: none; background: var(--bg); padding: 30px; border-radius: 15px; border: 1px solid #30363d; animation: fadeIn 0.5s; }
+        .tool-content.active { display: block; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+
+        input, select, textarea { width: 100%; padding: 12px; margin: 10px 0; border-radius: 8px; border: 1px solid #30363d; background: #0d1117; color: white; }
+        .btn-action { width: 100%; background: var(--v); border: none; padding: 15px; color: #000; font-weight: bold; border-radius: 8px; cursor: pointer; font-size: 1.1rem; }
+        
+        /* تدوير الزوار - Visitor Loop */
+        .loop-section { background: rgba(245, 158, 11, 0.05); border: 2px solid var(--v); padding: 20px; border-radius: 15px; margin-top: 40px; text-align: center; }
+        .loop-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-top: 15px; }
+        .loop-card { background: var(--bg); padding: 15px; border-radius: 10px; text-decoration: none; color: white; border: 1px solid #30363d; transition: 0.3s; }
+        .loop-card:hover { border-color: var(--p); transform: scale(1.02); }
+
+        @media (max-width: 600px) { .loop-grid { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1 style="color: var(--v); margin: 0;">مركز الأدوات الذكية PRO</h1>
+    <p>كل ما تحتاجه من أدوات في صفحة واحدة سريعة</p>
+    <div class="nav-tabs">
+        <button class="tab-btn active" onclick="openTab('wordCount')">📝 عداد الكلمات</button>
+        <button class="tab-btn" onclick="openTab('passGen')">🔐 مولد السر</button>
+        <button class="tab-btn" onclick="openTab('discount')">💰 الحاسبة المالية</button>
+        <button class="tab-btn" onclick="openTab('health')">⚖️ حاسبة الوزن</button>
+    </div>
+</div>
+
+<div class="container">
+    <div class="ad-box">
+        <script async="async" data-cfasync="false" src="https://pl28825118.effectivegatecpm.com/6176d6409e3673252f81c5cbb95ba586/invoke.js"></script>
+        <div id="container-6176d6409e3673252f81c5cbb95ba586"></div>
+    </div>
+
+    <div id="wordCount" class="tool-content active">
+        <h3>عداد الكلمات والحروف</h3>
+        <textarea id="textInput" rows="6" placeholder="أدخل النص هنا..." oninput="countText()"></textarea>
+        <div style="display: flex; gap: 20px; font-weight: bold; color: var(--p);">
+            <p>الكلمات: <span id="wCount">0</span></p>
+            <p>الحروف: <span id="cCount">0</span></p>
+        </div>
+    </div>
+
+    <div id="passGen" class="tool-content">
+        <h3>مولد كلمات السر القوية</h3>
+        <input type="text" id="passOutput" readonly placeholder="ستظهر كلمة السر هنا">
+        <button class="btn-action" onclick="genPass()">توليد كلمة سر آمنة</button>
+    </div>
+
+    <div id="discount" class="tool-content">
+        <h3>حاسبة الخصم والنسبة</h3>
+        <input type="number" id="billAmount" placeholder="السعر الأصلي">
+        <input type="number" id="discountPerc" placeholder="نسبة الخصم %">
+        <button class="btn-action" onclick="calcDiscount()">احسب السعر النهائي</button>
+        <h4 id="discResult" style="text-align: center; color: var(--p);"></h4>
+    </div>
+
+    <div id="health" class="tool-content">
+        <h3>حاسبة مؤشر كتلة الجسم (BMI)</h3>
+        <input type="number" id="weight" placeholder="الوزن بالـ كجم">
+        <input type="number" id="height" placeholder="الطول بالـ سم">
+        <button class="btn-action" onclick="calcBMI()">احسب حالتي الصحية</button>
+        <h4 id="bmiResult" style="text-align: center; color: var(--v);"></h4>
+    </div>
+
+    <div class="ad-box">
+        <div id="container-6176d6409e3673252f81c5cbb95ba586"></div>
+    </div>
+
+    <div class="loop-section">
+        <h3 style="margin-top: 0;">🚀 استكشف المزيد من أدواتنا</h3>
+        <div class="loop-grid">
+            <a href="https://has949276-cpu.github.io/ai-mastery/" class="loop-card">
+                <strong style="color: var(--v);">أوامر الذكاء الاصطناعي</strong>
+                <p style="font-size: 0.8rem; margin: 5px 0;">+150 أمر حصري لـ ChatGPT و Midjourney</p>
+            </a>
+            <a href="https://has949276-cpu.github.io/engineering-calculators/" class="loop-card">
+                <strong style="color: var(--p);">الحاسبات الهندسية</strong>
+                <p style="font-size: 0.8rem; margin: 5px 0;">أدوات دقيقة للمهندسين والطلاب</p>
+            </a>
+        </div>
+    </div>
+
+    <div class="ad-box">
+        <p style="color: #484f58; font-size: 0.8rem;">مساحة إعلانية إضافية</p>
+    </div>
+</div>
+
+<script>
+    function openTab(tabId) {
+        document.querySelectorAll('.tool-content').forEach(t => t.classList.remove('active'));
+        document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+        document.getElementById(tabId).classList.add('active');
+        event.currentTarget.classList.add('active');
+    }
+
+    function countText() {
+        let val = document.getElementById('textInput').value.trim();
+        document.getElementById('wCount').innerText = val ? val.split(/\s+/).length : 0;
+        document.getElementById('cCount').innerText = val.length;
+    }
+
+    function genPass() {
+        let chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*";
+        let pass = "";
+        for (let i = 0; i < 16; i++) pass += chars.charAt(Math.floor(Math.random() * chars.length));
+        document.getElementById('passOutput').value = pass;
+    }
+
+    function calcDiscount() {
+        let amt = document.getElementById('billAmount').value;
+        let per = document.getElementById('discountPerc').value;
+        if(amt && per) {
+            let final = amt - (amt * per / 100);
+            document.getElementById('discResult').innerText = "السعر بعد الخصم: " + final.toFixed(2) + "$";
+        }
+    }
+
+    function calcBMI() {
+        let w = document.getElementById('weight').value;
+        let h = document.getElementById('height').value / 100;
+        if(w && h) {
+            let bmi = w / (h * h);
+            let status = bmi < 18.5 ? "نحافة" : bmi < 25 ? "وزن مثالي" : "زيادة وزن";
+            document.getElementById('bmiResult').innerText = "مؤشرك: " + bmi.toFixed(1) + " (" + status + ")";
+        }
+    }
+</script>
+
+</body>
+</html>
+
