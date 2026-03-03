@@ -1,11 +1,22 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
- <meta name="google-site-verification" content="BQj8t2TI1qrN7sbOJ-MweGBmTAs6fSymZlA7fd-aeOI" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>مركز الأدوات الذكية | 10 أدوات احترافية في مكان واحد</title>
-    <meta name="description" content="أفضل مجموعة أدوات مجانية: حساب السعرات، تحويل عملات، عداد كلمات، وتوليد كلمات سر قوية. أدوات سريعة ودقيقة للمحترفين.">
+    
+    <meta name="google-site-verification" content="BQj8t2TI1qrN7sbOJ-MweGBmTAs6fSymZlA7fd-aeOI" />
+
+    <title>مركز الأدوات الذكية PRO | حاسبات وأدوات مجانية أونلاين</title>
+    <meta name="description" content="أفضل مجموعة أدوات مجانية للمحترفين: عداد كلمات دقيق، مولد كلمات سر قوية، حاسبة خصم مالي، وحاسبة مؤشر كتلة الجسم BMI. أدوات سريعة وسهلة الاستخدام للمستخدم العربي.">
+    <meta name="keywords" content="عداد كلمات، مولد كلمات سر، حاسبة BMI، حاسبة خصم، أدوات ويب مجانية، حساب الوزن المثالي، مركز الأدوات الذكية">
+    <link rel="canonical" href="https://has949276-cpu.github.io/" />
+
+    <meta property="og:title" content="مركز الأدوات الذكية PRO - أدوات احترافية مجانية">
+    <meta property="og:description" content="استخدم أدواتنا المجانية لتحسين إنتاجيتك: من عداد الكلمات إلى الحاسبات الصحية والمالية في مكان واحد.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://has949276-cpu.github.io/">
+    <meta name="twitter:card" content="summary_large_image">
+
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&display=swap" rel="stylesheet">
     
     <script src="https://pl28825044.effectivegatecpm.com/c3/eb/01/c3eb01a1312b0990825156562c460151.js"></script>
@@ -30,7 +41,6 @@
         input, select, textarea { width: 100%; padding: 12px; margin: 10px 0; border-radius: 8px; border: 1px solid #30363d; background: #0d1117; color: white; }
         .btn-action { width: 100%; background: var(--v); border: none; padding: 15px; color: #000; font-weight: bold; border-radius: 8px; cursor: pointer; font-size: 1.1rem; }
         
-        /* تدوير الزوار - Visitor Loop */
         .loop-section { background: rgba(245, 158, 11, 0.05); border: 2px solid var(--v); padding: 20px; border-radius: 15px; margin-top: 40px; text-align: center; }
         .loop-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-top: 15px; }
         .loop-card { background: var(--bg); padding: 15px; border-radius: 10px; text-decoration: none; color: white; border: 1px solid #30363d; transition: 0.3s; }
